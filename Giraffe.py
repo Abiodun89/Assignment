@@ -1,4 +1,8 @@
-Num1 = int(input("Enter Number 1 : "))
-Num2 = int(input("Enter Number 2 : "))
-result = num1 + num2
-print(num1, " + ", num2, " = ", result)
+n = int(input("enter the many nummbers you want in this series:"))
+first = 0
+second = 1
+for i in range(n) :
+    print(first)
+    temp = first
+    first = second
+    second = temp+second
