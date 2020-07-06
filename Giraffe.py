@@ -1,6 +1,11 @@
-Num1 = int(input("Enter Number 1 : "))
-    Num2 = int(input("Enter Number 2 : "))
-    result = num1 + num2
-    print(num1, " + ", num2, " = ", result)
+#program to reverse word in a string
+string = "programming study to love I"
+def reverseString(s):
+    wordArray = s.split(' ')
+    output = []
+    for word in wordArray:
+     output.insert(0,word)
+    return " ".join(output)
+print(reverseString(string))
 
 
